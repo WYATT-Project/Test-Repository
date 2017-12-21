@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Customization name="MMS100" version="9.0.0">
+	<Panels>
+		<Panel name="MMA100BC">
+			<HyperLinks>
+				<HyperLink column="TRNR" condid="" conduri="" externalBrowser="False" option="11"/>
+				<HyperLink column="TRSL" condid="" conduri="" externalBrowser="False" option="43"/>
+				<HyperLink column="TRSH" condid="" conduri="" externalBrowser="False" option="42"/>
+			</HyperLinks>
+			<ConditionalStyles>
+				<ConditionalStyle alignment="Left" enabled="True" text="Preliminary" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="10"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Being Changed" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" trim="True" type="1" value="15"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="22"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / Allocated" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="23"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / Picking list printed" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="24"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / Transferred" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="25"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / In Transit" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="26"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="29"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="33"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated / Picking list printed" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="34"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated / Transfered" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="35"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated / In Transit" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="36"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="39"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Picking list printed" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="44"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Picking list printed / Transferred" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="45"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Picking list printed / Delivered" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="46"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Picking list printed / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="49"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Transfered" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="55"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Transfered / Delivered" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="56"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Transfered / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="59"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Delivered" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="66"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Delivered / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="69"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSH" operand="1" operator="0" type="1" value="99"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Preliminary" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="10"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Being Changed" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" trim="True" type="1" value="15"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="22"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / Allocated" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="23"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / Picking list printed" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="24"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / Transferred" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="25"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / In Transit" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="26"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Reserved / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="29"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="33"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated / Picking list printed" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="34"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated / Transfered" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="35"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated / In Transit" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="36"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Allocated / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="39"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Picking list printed" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="44"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Picking list printed / Transferred" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="45"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Picking list printed / Delivered" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="46"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Picking list printed / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="49"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Transfered" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="55"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Transfered / Delivered" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="56"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Transfered / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="59"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Delivered" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="66"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Delivered / Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="69"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Left" enabled="True" text="Completed" toolTip="True" type="0" version="2">
+					<Condition field="TRSL" operand="1" operator="0" type="1" value="99"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Right" enabled="True" text="Manufacturing order" toolTip="True" type="0" version="2">
+					<Condition field="RORC" operand="1" operator="0" trim="True" type="1" value="1"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Right" enabled="True" text="Purchase order" toolTip="True" type="0" version="2">
+					<Condition field="RORC" operand="1" operator="0" trim="True" type="1" value="2"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Right" enabled="True" text="Customer order" toolTip="True" type="0" version="2">
+					<Condition field="RORC" operand="1" operator="0" trim="True" type="1" value="3"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Right" enabled="True" text="Requisition order" toolTip="True" type="0" version="2">
+					<Condition field="RORC" operand="1" operator="0" trim="True" type="1" value="4"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Right" enabled="True" text="Distribution order" toolTip="True" type="0" version="2">
+					<Condition field="RORC" operand="1" operator="0" trim="True" type="1" value="5"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Right" enabled="True" text="Work order" toolTip="True" type="0" version="2">
+					<Condition field="RORC" operand="1" operator="0" trim="True" type="1" value="6"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Right" enabled="True" text="Service order" toolTip="True" type="0" version="2">
+					<Condition field="RORC" operand="1" operator="0" trim="True" type="1" value="7"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Right" enabled="True" text="Project order" toolTip="True" type="0" version="2">
+					<Condition field="RORC" operand="1" operator="0" trim="True" type="1" value="8"/>
+				</ConditionalStyle>
+				<ConditionalStyle alignment="Right" enabled="True" text="Claim order" toolTip="True" type="0" version="2">
+					<Condition field="RORC" operand="1" operator="0" trim="True" type="1" value="9"/>
+				</ConditionalStyle>
+			</ConditionalStyles>
+			<ReplacementTexts>
+				<ReplacementText column="MGTRTP" originalText="Otp" row="ListView" text="Order Type"/>
+				<ReplacementText column="MGTRDT" originalText="Trs dt" row="ListView" text="Date"/>
+				<ReplacementText column="MGWHLO" originalText="Whs" row="ListView" text="Site"/>
+				<ReplacementText column="MGPRIO" originalText="Pri" row="ListView" text="Priority"/>
+				<ReplacementText column="MGTRSL" originalText="Lws" row="ListView" text="Lowest Status"/>
+				<ReplacementText column="MGTRSH" originalText="His" row="ListView" text="Highest Status"/>
+				<ReplacementText column="MGRESP" originalText="Resp" row="ListView" text="Responsible"/>
+			</ReplacementTexts>
+			<Shortcuts><Shortcut type="FKey" name="Close Program" value="F3" renamed="True"/><Shortcut type="Separator" name="&lt;Space&gt;" value=""/><Shortcut type="Option" name="Order Lines" value="11"/><Shortcut type="Separator" name="&lt;Space&gt;" value=""/><Shortcut type="Option" name="Delivery Toolbox" value="43"/><Shortcut type="Separator" name="&lt;Space&gt;" value=""/><Shortcut type="Separator" name="&lt;Space&gt;" value=""/><Shortcut type="Option" name="DO/RO Toolbox" value="42"/></Shortcuts>
+		</Panel>
+		<Panel name="MMA100A0">
+			<Shortcuts>
+				<Shortcut name="Order Lines" type="Option" value="11"/>
+				<Shortcut name="&lt;Space&gt;" type="Separator" value=""/>
+				<Shortcut name="Delivery Toolbox" type="Option" value="43"/>
+				<Shortcut name="&lt;Space&gt;" type="Separator" value=""/>
+				<Shortcut name="Close Order" type="Option" value="24"/>
+				<Shortcut name="&lt;Space&gt;" type="Separator" value=""/>
+				<Shortcut name="&lt;Space&gt;" type="Separator" value=""/>
+				<Shortcut name="DO/RO Toolbox" type="Option" value="42"/>
+			</Shortcuts>
+		</Panel>
+		<Panel name="MMA100N0">
+			<HiddenFields>
+				<HiddenField name="WGRORN"/>
+				<HiddenField name="WGRORL"/>
+				<HiddenField name="WGRORX"/>
+				<HiddenField name="WGTWSL"/>
+				<HiddenField name="WGDEPT"/>
+				<HiddenField name="WRWHSL"/>
+				<HiddenField name="WRRSCD"/>
+				<HiddenField name="WRBANO"/>
+				<HiddenField name="WGGSR3"/>
+				<HiddenField name="WGTOFP"/>
+				<HiddenField name="WGGSR1"/>
+				<HiddenField name="WGGSR2"/>
+				<HiddenField name="WGREMK"/>
+				<HiddenField name="WRO1515"/>
+				<HiddenField name="WTW0415"/>
+				<HiddenField name="WDE0415"/>
+				<HiddenField name="WWS0115"/>
+				<HiddenField name="WSTA115"/>
+				<HiddenField name="WRSCD15"/>
+				<HiddenField name="WBA0415"/>
+				<HiddenField name="WGS0415"/>
+				<HiddenField name="WTOF115"/>
+				<HiddenField name="WGS0215"/>
+				<HiddenField name="WGS0315"/>
+				<HiddenField name="WRE2015"/>
+				<HiddenField name="WRSTAS"/>
+			</HiddenFields>
+		<H5Scripts><H5Script progid="AutoComplete_H5_V1" argument="WRITNO,LstMITMAS00-IES,ITNO,ITDS" target=""/></H5Scripts><Shortcuts><Shortcut type="FKey" name="Settings" value="F13"/></Shortcuts></Panel>
+	</Panels>
+</Customization>
